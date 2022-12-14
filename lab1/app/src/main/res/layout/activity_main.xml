@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="241dp"
+        android:layout_height="286dp"
+        app:srcCompat="@drawable/resource__" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_marginTop="40dp"
+        android:hint="E-mail"
+        android:gravity="center_horizontal"
+        app:backgroundTint="#9C27B0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:hint="Password"
+        android:gravity="center_horizontal"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:backgroundTint="#9C27B0"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Войти"
+        app:backgroundTint="#9C27B0"/>
+</LinearLayout>
